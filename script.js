@@ -154,25 +154,25 @@ addressInput.addEventListener("input", function (event) {
 //finalizar pedido
 checkoutBtn.addEventListener("click", function () {
 
-//    const isOpen = checkRestaurantOpen();
-//    if(!isOpen) {
+    const isOpen = checkRestaurantOpen();
+    if(!isOpen) {
 
-//   Toastify({
-//     text: "Ops o restaurante está fechado!",
-//     duration: 3000,
-//     newWindow: true,
-//     close: true,
-//     gravity: "top", // `top` or `bottom`
-//     position: "right", // `left`, `center` or `right`
-//     stopOnFocus: true, // Prevents dismissing of toast on hover
-//     style: {
-//       background: "#ef4444",
-//     },
+   Toastify({
+     text: "Ops o restaurante está fechado!",
+     duration: 3000,
+     newWindow: true,
+     close: true,
+    gravity: "top", // `top` or `bottom`
+    position: "right", // `left`, `center` or `right`
+     stopOnFocus: true, // Prevents dismissing of toast on hover
+    style: {
+       background: "#ef4444",
+     },
 
-//   }).showToast();
+   }).showToast();
 
-//   return;
-// }
+  return;
+}
 
 if (cart.length === 0) return;
 if (addressInput.value === "") {
@@ -188,7 +188,7 @@ const cartItems = cart.map((item) => {
 }).join("")
 
 const message = encodeURIComponent(cartItems)
-const phone = "683836659"
+const phone = "+31683836659"
 
 window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`, 
   "_Blank")
