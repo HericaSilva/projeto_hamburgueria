@@ -165,13 +165,13 @@ checkoutBtn.addEventListener("click", function () {
     gravity: "top", // `top` or `bottom`
     position: "right", // `left`, `center` or `right`
      stopOnFocus: true, // Prevents dismissing of toast on hover
-    style: {
-       background: "#ef4444",
-     },
+     style: {
+        background: "#ef4444",
+      },
 
-   }).showToast();
+    }).showToast();
 
-  return;
+   return;
 }
 
 if (cart.length === 0) return;
@@ -183,7 +183,8 @@ if (addressInput.value === "") {
 // enviar o pedido api whats
 const cartItems = cart.map((item) => {
   return (
-    `${item.name} Quantidade: (${item.quantity}) preço: R$ ${item.price} |`
+    `${item.name} 
+    Quantidade: (${item.quantity}) preço: R$ ${item.price} |`
   )
 }).join("")
 
@@ -201,14 +202,14 @@ window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.va
 function checkRestaurantOpen() {
   const data = new Date();
   const hora = data.getHours();
-  return hora >= 18 && hora < 22; // true = restaur. aberto
+  return hora >= 12 && hora < 22; // true = restaur. aberto
 
 }
 const spanItem = document.getElementById("date-span")
 const isOpen = checkRestaurantOpen();
 
 if (isOpen) {
-  spanItem.classList.remove("bg-re-500");
+  spanItem.classList.remove("bg-red-500");
   spanItem.classList.add("bg-green-600");
 } else {
   spanItem.classList.remove("bg-green-600")
