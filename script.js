@@ -180,23 +180,30 @@ if (addressInput.value === "") {
   addressInput.classList.add("border-red-500");
   return;
 }
-// enviar o pedido api whats
-const cartItems = cart.map((item) => {
-  return (
-    `${item.name} 
-    Quantidade: (${item.quantity}) preço: R$ ${item.price} |`
-  )
-}).join("")
+// Calcular o valor total do pedido
+  let total = 0;
+  const cartItems = cart.map((item) => {
+    total += item.price * item.quantity; // Soma o total de cada item
+    return (
+      `${item.name} \nQuantidade: (${item.quantity}) \nPreço: R$ ${item.price.toFixed(2)}\n`
+    );
+  }).join("\n");
 
-const message = encodeURIComponent(cartItems)
-const phone = "+31683836659"
+  // Incluir o total na mensagem
+  const message = encodeURIComponent(
+    `Pedido:\n\n${cartItems}\nTotal Pedido: R$ ${total.toFixed(2)}\nEndereço Entrega: ${addressInput.value}`
+  );
 
-window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`, 
-  "_Blank")
+  // Número de telefone do WhatsApp (formato internacional)
+  const phone = "+31683836659";
 
-  cart =[];
+  // Abrir WhatsApp com a mensagem
+  window.open(`https://wa.me/${phone}?text=${message}`, "_Blank");
+
+  // Limpar o carrinho após o envio
+  cart = [];
   updateCartModal();
-})
+});
 
 // checar se o restaurante esta aberto / manipular card horario
 function checkRestaurantOpen() {
