@@ -1,4 +1,4 @@
-# 🍔 Menu para Hamburgueria
+# 🍔  Menu para Hamburgueria 
 
 Este é um **projeto prático** responsivo , de uma aplicação web para gerenciar pedidos em uma hamburgueria desenvolvido no curso do **Sujeito programador**.
 
@@ -9,7 +9,6 @@ O objetivo é proporcionar uma experiência agradável e intuitiva para os clien
 - **React Native**
 - **JavaScript**
 - **HTML5**
-- **CSS3**
 - **TailwindCSS**
 
 ## 📱 Funcionalidades
