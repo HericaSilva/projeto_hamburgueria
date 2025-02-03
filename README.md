@@ -1,8 +1,7 @@
 # **Menu for Hamburger Shop 🍔**
 
 This is a **practical and responsive** web application project developed to **manage orders in a hamburger shop**, as part of the course **[Sujeito Programador - Fábrica de Aplicativos](https://sujeitoprogramador.com/fabricadeaplicativos/)**. 
-The main goal is to provide a pleasant and intuitive experience, allowing customers to quickly and easily choose their burgers.
-
+The main goal is to provide a pleasant and intuitive experience, allowing customers to quickly and easily choose their burgers.-
 ## **🚀 Technologies Used**
 
 - **React Native** – For developing interactive and responsive interfaces.
@@ -30,5 +29,4 @@ The app is **hosted on Vercel**, providing a **quick and easy deployment**.
 
 ## **📝 Author**
 
-This project was developed by **
-[Herica Silva]** as part of the course **[Sujeito Programador - Fábrica de Aplicativos](https://sujeitoprogramador.com/fabricadeaplicativos/)**.
+This project was developed by **[Herica Silva](https://github.com/HericaSilva)** as part of the course **[Sujeito Programador - Fábrica de Aplicativos](https://sujeitoprogramador.com/fabricadeaplicativos/)**.
