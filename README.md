@@ -1,25 +1,34 @@
-# 🍔  Menu para Hamburgueria 
+# **Menu for Hamburger Shop 🍔**
 
-Este é um **projeto prático** responsivo , de uma aplicação web para gerenciar pedidos em uma hamburgueria desenvolvido no curso do **Sujeito programador**.
+This is a **practical and responsive** web application project developed to **manage orders in a hamburger shop**, as part of the course **[Sujeito Programador - Fábrica de Aplicativos](https://sujeitoprogramador.com/fabricadeaplicativos/)**. 
+The main goal is to provide a pleasant and intuitive experience, allowing customers to quickly and easily choose their burgers.
 
-O objetivo é proporcionar uma experiência agradável e intuitiva para os clientes escolherem seus lanches de forma rápida e prática.
+## **🚀 Technologies Used**
 
-## 🚀 Tecnologias Utilizadas
+- **React Native** – For developing interactive and responsive interfaces.
+- **JavaScript** – Programming language for the app's functionality.
+- **HTML5** – For structuring the web application.
+- **TailwindCSS** – Utility-first CSS framework for a clean and responsive design.
 
-- **React Native**
-- **JavaScript**
-- **HTML5**
-- **TailwindCSS**
+## **📱 Features**
 
-## 📱 Funcionalidades
+This app was designed to provide an efficient user experience for both **customers** and **hamburger shop employees**, with key features to facilitate the ordering process.
 
-Essas funcionalidades ajudam a criar uma experiência de usuário mais fluida e eficiente, tanto para os clientes quanto para os funcionários da hamburgueria.
+- **Menu Viewing**: Customers can view all the available **hamburgers**, including descriptions, prices, and images of each item.
+- **Add and Remove Items from Cart**: Customers can **add or remove items** from their shopping cart easily.
+- **Dynamic Cart Update**: The total price is **automatically updated** as items are added or removed from the cart.
+- **Availability Check**: Checks if the restaurant is **open or closed** based on the operating hours.
+- **WhatsApp Integration**: Makes it easier to complete the order by allowing **customers to send their orders directly** via WhatsApp.
 
--**Visualização do Menu**: Os clientes podem ver todos os hambúrgueres disponíveis, incluindo descrições, preços e imagens.<br>
--**Adição e Remoção de Itens do Carrinho**: Permite que os clientes adicionem ou removam itens do carrinho de compras.<br>
--**Atualização Dinâmica do Carrinho**: O total da compra é atualizado automaticamente conforme os itens são adicionados ou removidos.<br>
--**Verificação de Disponibilidade:** Checa se o restaurante está aberto ou fechado com base no horário.<br>
--**Integração com WhatsApp**: Facilita a finalização da compra através do WhatsApp, permitindo que os clientes enviem seus pedidos diretamente.<br>
+## **🌐 Deploy**
 
-- ## Deploy
-  https://projeto-hamburgueria-eta-orcin.vercel.app/
+The application is hosted and can be accessed through the following link:
+
+[**Menu for Hamburger Shop - Access here!**](https://projeto-hamburgueria-eta-orcin.vercel.app/)
+
+The app is **hosted on Vercel**, providing a **quick and easy deployment**.
+
+## **📝 Author**
+
+This project was developed by **
+Herica Silva** as part of the course **[Sujeito Programador - Fábrica de Aplicativos](https://sujeitoprogramador.com/fabricadeaplicativos/)**.
