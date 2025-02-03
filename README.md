@@ -31,4 +31,4 @@ The app is **hosted on Vercel**, providing a **quick and easy deployment**.
 ## **📝 Author**
 
 This project was developed by **
-Herica Silva** as part of the course **[Sujeito Programador - Fábrica de Aplicativos](https://sujeitoprogramador.com/fabricadeaplicativos/)**.
+[Herica Silva]** as part of the course **[Sujeito Programador - Fábrica de Aplicativos](https://sujeitoprogramador.com/fabricadeaplicativos/)**.
